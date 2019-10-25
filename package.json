@@ -1,0 +1,37 @@
+{
+  "name": "wd-commonjs-cucumber-webdriver-manager-chai",
+  "version": "1.0.0",
+  "description": "WD end-to-end test automation boilerplate project. Using commonjs, cucumber, webdriver-manager and chai",
+  "scripts": {
+    "upadte-webderiver": "npx webdriver-manager update",
+    "start-webderiver": "npx webdriver-manager start",
+    "test": "./node_modules/.bin/cucumber-js",
+    "lint": "npx eslint --ext .js ./ --fix"
+  },
+  "keywords": [],
+  "author": "Girma Nigusse",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "husky": "^3.0.9",
+    "mocha": "^6.2.2",
+    "prettier": "^1.18.2",
+    "pretty-quick": "^2.0.0",
+    "webdriver-manager": "^12.1.7"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "cucumber": "^6.0.2",
+    "wd": "^1.11.4"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  }
+}
