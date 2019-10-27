@@ -8,8 +8,15 @@
     "test": "./node_modules/.bin/cucumber-js",
     "lint": "npx eslint --ext .js ./ --fix"
   },
-  "keywords": [],
-  "author": "Girma Nigusse",
+  "keywords": [
+    "wd",
+    "cucumber",
+    "webdriver-manager",
+    "chai",
+    "boilerplate",
+    "example"
+  ],
+  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
   "license": "MIT",
   "devDependencies": {
     "eslint": "^6.5.1",

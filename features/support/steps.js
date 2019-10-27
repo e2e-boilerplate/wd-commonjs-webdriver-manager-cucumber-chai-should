@@ -14,6 +14,10 @@ BeforeAll(() => {
   return browser.init({ browserName: "chrome" }).get("https://www.google.com/");
 });
 
+AfterAll(() => {
+  browser.quit();
+});
+
 Given("I am on the Google search page", done => {
   browser
     .title()
@@ -42,8 +46,4 @@ Then("the page title should start with {string}", (searchWord, done) => {
       words[0].should.equal(searchWord);
     })
     .nodeify(done);
-});
-
-AfterAll(() => {
-  browser.quit();
 });
