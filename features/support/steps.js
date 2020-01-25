@@ -1,4 +1,4 @@
-const { Given, When, Then, BeforeAll, AfterAll } = require("cucumber");
+const { Given, When, Then, AfterAll } = require("cucumber");
 const chai = require("chai");
 const chaiAsPromised = require("chai-as-promised");
 const wd = require("wd");
@@ -7,43 +7,32 @@ chai.use(chaiAsPromised);
 chai.should();
 chaiAsPromised.transferPromiseness = wd.transferPromiseness;
 
-const { asserters } = wd;
-
-BeforeAll(() => {
+Given(/^Navigate to the sandbox$/, () => {
   browser = wd.promiseChainRemote();
-  return browser.init({ browserName: "chrome" }).get("https://www.google.com/");
+  return browser
+    .init({ browserName: "chrome" })
+    .get("https://e2e-boilerplates.github.io/sandbox/");
 });
 
 AfterAll(() => {
   browser.quit();
 });
 
-Given("I am on the Google search page", done => {
+When(/^I am on the sandbox page$/, done => {
   browser
     .title()
     .then(title => {
-      title.should.equal("Google");
+      title.should.equal("Sandbox");
     })
     .nodeify(done);
 });
 
-When("I search for {string}", (searchWord, done) => {
+Then(/^The page header should be "([^"]*)"$/, (header, done) => {
   browser
-    .elementByName("q")
-    .sendKeys(searchWord)
-    .sleep(1000)
-    .elementByClassName("gNO89b")
-    .should.eventually.exist.click()
-    .nodeify(done);
-});
-
-Then("the page title should start with {string}", (searchWord, done) => {
-  browser
-    .waitForElementByCss("#resultStats", asserters.isDisplayed, 5000)
-    .title()
-    .then(title => {
-      const words = title.split(" ");
-      words[0].should.equal(searchWord);
+    .elementByTagName("h1")
+    .text()
+    .then(text => {
+      text.should.equal(header);
     })
     .nodeify(done);
 });

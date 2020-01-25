@@ -1,25 +1,24 @@
-name: NodeCI
+name: wd-commonjs-cucumber-webdriver-manager-chai
 
 on: [push]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v1
-    - name: Use Node.js 12.x
-      uses: actions/setup-node@v1
-      with:
-        node-version: '12.x'
-    - name: npm install, build, and test
-      run: |
-        npm ci
-      env:
-        CI: true
-    - name: npm install, build, and test
-      run: |
-        npm run upadte-webderiver
-        npm run start-webderiver
-        npm run test
+      - uses: actions/checkout@v1
+      - name: Use Node.js 12.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: "12.x"
+      - name: npm install, build, and test
+        run: |
+          npm ci
+        env:
+          CI: true
+      - name: npm install, build, and test
+        run: |
+          npm run upadte-webderiver
+          npm run start-webderiver
+          npm run test
