@@ -1,7 +1,7 @@
 {
-  "name": "wd-commonjs-cucumber-webdriver-manager-chai",
+  "name": "wd-commonjs-cucumberjs-webdriver-manager-chai-expect",
   "version": "1.0.0",
-  "description": "WD end-to-end test automation boilerplate project. Using commonjs, cucumber, webdriver-manager and chai",
+  "description": "WD end-to-end test automation boilerplate, using CommonJS, CucumberJS, webdriver-manager, Chai abd Expect",
   "scripts": {
     "lint": "npx eslint --ext .js ./ --fix",
     "upadte-webderiver": "npx webdriver-manager update",
@@ -14,7 +14,9 @@
     "webdriver-manager",
     "chai",
     "boilerplate",
-    "example"
+    "example",
+    "e2e",
+    "e2e test"
   ],
   "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
   "license": "MIT",

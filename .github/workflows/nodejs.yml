@@ -1,9 +1,9 @@
-name: wd-commonjs-cucumber-webdriver-manager-chai
+name: wd-commonjs-cucumberjs-webdriver-manager-chai-expect
 
-on: 
+on:
   push:
   schedule:
-    - cron: '0 0 1-31/2 * *' 
+    - cron: "0 0 1-31/2 * *"
 
 jobs:
   build:
@@ -15,13 +15,17 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: "12.x"
-      - name: npm install, build, and test
+      - name: INSTALL
         run: |
           npm ci
         env:
           CI: true
-      - name: npm install, build, and test
+      - name: UPDATE WEBDRIVER
         run: |
           npm run upadte-webderiver
+      - name: START SELENIUM SERVER
+        run: |
           npm run start-webderiver &
+      - name: TEST
+        run: |
           npm run test

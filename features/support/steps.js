@@ -8,10 +8,9 @@ const url = "https://e2e-boilerplates.github.io/sandbox/";
 chai.use(chaiAsPromised);
 chai.should();
 chaiAsPromised.transferPromiseness = wd.transferPromiseness;
+const browser = wd.promiseChainRemote();
 
 Given(/^Navigate to the sandbox$/, () => {
-  browser = wd.promiseChainRemote();
-
   return process.env.GITHUB_ACTIONS
     ? browser
         .init({
