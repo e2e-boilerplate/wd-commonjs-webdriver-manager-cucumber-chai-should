@@ -1,5 +1,5 @@
 {
-  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
+  "author": "",
   "dependencies": {
     "chai": "4.2.0",
     "chai-as-promised": "7.1.1",
@@ -26,14 +26,9 @@
     }
   },
   "keywords": [
-    "boilerplate",
     "chai",
     "commonjs",
     "cucumber",
-    "e2e",
-    "e2e tests",
-    "example",
-    "integration test",
     "manager",
     "selenium-webdriver",
     "wd",
