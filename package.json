@@ -42,9 +42,9 @@
   },
   "scripts": {
     "lint": "npx eslint --ext .js ./ --fix",
-    "upadte-webderiver": "npx webdriver-manager update",
     "start-webderiver": "npx webdriver-manager start",
-    "test": "./node_modules/.bin/cucumber-js"
+    "test": "./node_modules/.bin/cucumber-js",
+    "upadte-webderiver": "npx webdriver-manager update"
   },
   "version": "1.0.0"
 }
