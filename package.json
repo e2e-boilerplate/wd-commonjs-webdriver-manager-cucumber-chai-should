@@ -1,1 +1,59 @@
-{"author":"Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)","bugs":{"url":"https://github.com/e2e-boilerplate/wd-commonjs-cucumber-webdriver-manager-chai-should/issues"},"dependencies":{"chai":"4.2.0","chai-as-promised":"7.1.1","cucumber":"6.0.5","wd":"1.12.1"},"description":"WD end-to-end test automation boilerplate. using Using Commonjs, Cucumber, Webdriver-Manager, Chai and Should.","devDependencies":{"eslint":"6.8.0","eslint-config-airbnb-base":"14.0.0","eslint-config-prettier":"6.9.0","eslint-plugin-import":"2.20.0","eslint-plugin-json":"2.1.0","eslint-plugin-prettier":"3.1.2","husky":"4.2.3","mocha":"7.1.0","prettier":"1.19.1","pretty-quick":"2.0.1","webdriver-manager":"12.1.7"},"homepage":"https://github.com/e2e-boilerplate/wd-commonjs-cucumber-webdriver-manager-chai-should#readme","husky":{"hooks":{"pre-commit":"pretty-quick --staged"}},"keywords":["boilerplate","chai","commonjs","cucumber","e2e","e2e tests","example","integration test","selenium-webdriver","should","wd","webdriver manager"],"license":"MIT","name":"wd-commonjs-cucumber-webdriver-manager-chai-should","repository":{"type":"git","url":"git+https://github.com/e2e-boilerplate/wd-commonjs-cucumber-webdriver-manager-chai-should.git"},"scripts":{"lint":"npx eslint --ext .js ./ --fix","start-webderiver":"npx webdriver-manager start","test":"./node_modules/.bin/cucumber-js","upadte-webderiver":"npx webdriver-manager update"},"version":"1.0.0"}
+{
+  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
+  "bugs": {
+    "url": "https://github.com/e2e-boilerplate/wd-commonjs-cucumber-webdriver-manager-chai-should/issues"
+  },
+  "dependencies": {
+    "chai": "4.2.0",
+    "chai-as-promised": "7.1.1",
+    "cucumber": "6.0.5",
+    "wd": "1.12.1"
+  },
+  "description": "WD end-to-end test automation boilerplate. Using Using Commonjs, Cucumber, Webdriver-Manager, Chai and Should.",
+  "devDependencies": {
+    "eslint": "6.8.0",
+    "eslint-config-airbnb-base": "14.0.0",
+    "eslint-config-prettier": "6.9.0",
+    "eslint-plugin-import": "2.20.0",
+    "eslint-plugin-json": "2.1.0",
+    "eslint-plugin-prettier": "3.1.2",
+    "husky": "4.2.3",
+    "mocha": "7.1.0",
+    "prettier": "1.19.1",
+    "pretty-quick": "2.0.1",
+    "webdriver-manager": "12.1.7"
+  },
+  "homepage": "https://github.com/e2e-boilerplate/wd-commonjs-cucumber-webdriver-manager-chai-should#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "keywords": [
+    "boilerplate",
+    "chai",
+    "commonjs",
+    "cucumber",
+    "e2e",
+    "e2e tests",
+    "example",
+    "integration test",
+    "selenium-webdriver",
+    "should",
+    "wd",
+    "webdriver manager"
+  ],
+  "license": "MIT",
+  "name": "wd-commonjs-cucumber-webdriver-manager-chai-should",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e2e-boilerplate/wd-commonjs-cucumber-webdriver-manager-chai-should.git"
+  },
+  "scripts": {
+    "lint": "npx eslint --ext .js ./ --fix",
+    "start-webderiver": "npx webdriver-manager start",
+    "test": "./node_modules/.bin/cucumber-js",
+    "upadte-webderiver": "npx webdriver-manager update"
+  },
+  "version": "1.0.0"
+}
