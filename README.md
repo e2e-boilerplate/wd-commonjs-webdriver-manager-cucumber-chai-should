@@ -1,14 +1,12 @@
-# WD (commonjs, cucumber, webdriver-manager, chai)
+[![GitHub Actions status | e2e-boilerplate/wd-commonjs-cucumber-webdriver-manager-chai-should](https://github.com/e2e-boilerplate/wd-commonjs-cucumber-webdriver-manager-chai-should/workflows/wd-commonjs-cucumber-webdriver-manager-chai-should/badge.svg)](https://github.com/e2e-boilerplate/wd-commonjs-cucumber-webdriver-manager-chai-should/actions?workflow=wd-commonjs-cucumber-webdriver-manager-chai-should)
 
-[![GitHub Actions status | e2e-boilerplates/wd-commonjs-cucumber-webdriver-manager-chai-expect](https://github.com//e2e-boilerplates/wd-commonjs-cucumber-webdriver-manager-chai-expect/workflows/wd-commonjs-cucumber-webdriver-manager-chai-expect/badge.svg)](https://github.com//e2e-boilerplates/wd-commonjs-cucumber-webdriver-manager-chai-expect/actions?workflow=wd-commonjs-cucumber-webdriver-manager-chai-expect)
+# WD Boilerplate
 
-WD end-to-end test automation boilerplate, using CommonJS, CucumberJS, webdriver-manager, Chai and Expect.
+WD end-to-end test automation boilerplate, using Commonjs, Cucumber, Webdriver-Manager, Chai and Should.
 
 ## Getting Started
 
-    git clone git@github.com:e2e-boilerplates/wd-commonjs-cucumber-webdriver-manager-chai-expect.git
-    cd wd-commonjs-cucumber-webdriver-manager-chai-expect
-    npm install
-    npm run upadte-webderiver
-    npm run start-webderiver
-    npm run test
+git clone git@github.com:e2e-boilerplate/wd-commonjs-cucumber-webdriver-manager-chai-should.git
+cd wd-commonjs-cucumber-webdriver-manager-chai-should
+npm install
+npm run test
