@@ -6,7 +6,7 @@ WD end-to-end test automation boilerplate, using Commonjs, Cucumber, Webdriver-M
 
 ## Getting Started
 
-git clone git@github.com:e2e-boilerplate/wd-commonjs-cucumber-webdriver-manager-chai-should.git
-cd wd-commonjs-cucumber-webdriver-manager-chai-should
-npm install
-npm run test
+    	git clone git@github.com:e2e-boilerplate/wd-commonjs-cucumber-webdriver-manager-chai-should.git
+    	cd wd-commonjs-cucumber-webdriver-manager-chai-should
+    	npm install
+    	npm run test
