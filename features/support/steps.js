@@ -3,7 +3,7 @@ const chai = require("chai");
 const chaiAsPromised = require("chai-as-promised");
 const wd = require("wd");
 
-const url = "https://e2e-boilerplates.github.io/sandbox/";
+const url = "https://e2e-boilerplate.github.io/sandbox/";
 
 chai.use(chaiAsPromised);
 chai.should();
