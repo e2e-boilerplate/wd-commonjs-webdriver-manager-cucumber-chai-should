@@ -1,4 +1,4 @@
-name: wd-commonjs-cucumber-webdriver-manager-chai-should
+name: wd-commonjs-webdriver-manager-cucumber-chai-should
 "on":
   push: null
   schedule:
