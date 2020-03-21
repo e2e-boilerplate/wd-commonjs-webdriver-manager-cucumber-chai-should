@@ -1,7 +1,7 @@
 {
   "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
   "bugs": {
-    "url": "https://github.com/e2e-boilerplate/wd-commonjs-cucumber-webdriver-manager-chai-should/issues"
+    "url": "https://github.com/e2e-boilerplate/wd-commonjs-webdriver-manager-cucumber-chai-should/issues"
   },
   "dependencies": {
     "chai": "4.2.0",
@@ -9,13 +9,12 @@
     "cucumber": "6.0.5",
     "wd": "1.12.1"
   },
-  "description": "WD end-to-end test automation boilerplate. using Commonjs, Cucumber, Webdriver-Manager, Chai and Should.",
+  "description": "WD end-to-end test automation boilerplate. using Commonjs, Webdriver-Manager, Cucumber, Chai and Should.",
   "devDependencies": {
     "eslint": "6.8.0",
     "eslint-config-airbnb-base": "14.1.0",
     "eslint-config-prettier": "6.9.0",
     "eslint-plugin-import": "2.20.0",
-    "eslint-plugin-json": "2.1.1",
     "eslint-plugin-prettier": "3.1.2",
     "husky": "4.2.3",
     "mocha": "7.1.1",
@@ -23,7 +22,7 @@
     "pretty-quick": "2.0.1",
     "webdriver-manager": "12.1.7"
   },
-  "homepage": "https://github.com/e2e-boilerplate/wd-commonjs-cucumber-webdriver-manager-chai-should#readme",
+  "homepage": "https://github.com/e2e-boilerplate/wd-commonjs-webdriver-manager-cucumber-chai-should#readme",
   "husky": {
     "hooks": {
       "pre-commit": "pretty-quick --staged"
@@ -44,10 +43,10 @@
     "webdriver manager"
   ],
   "license": "MIT",
-  "name": "wd-commonjs-cucumber-webdriver-manager-chai-should",
+  "name": "wd-commonjs-webdriver-manager-cucumber-chai-should",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/e2e-boilerplate/wd-commonjs-cucumber-webdriver-manager-chai-should.git"
+    "url": "git+https://github.com/e2e-boilerplate/wd-commonjs-webdriver-manager-cucumber-chai-should.git"
   },
   "scripts": {
     "lint": "npx eslint --ext .js ./ --fix",
