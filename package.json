@@ -50,9 +50,9 @@
   },
   "scripts": {
     "lint": "npx eslint --ext .js ./ --fix",
-    "start-webderiver": "npx webdriver-manager start",
+    "start:webdriver": "npx webdriver-manager start",
     "test": "./node_modules/.bin/cucumber-js",
-    "upadte-webderiver": "npx webdriver-manager update"
+    "update:webdriver": "npx webdriver-manager update"
   },
   "version": "1.0.0"
 }
