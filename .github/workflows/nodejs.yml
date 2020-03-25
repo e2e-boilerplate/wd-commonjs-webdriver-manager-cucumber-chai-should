@@ -1,8 +1,8 @@
 name: wd-commonjs-webdriver-manager-cucumber-chai-should
-"on":
+'on':
   push: null
   schedule:
-    - cron: 50 5 1-31/2 * *
+    - cron: 40 4 1-31/2 * *
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -20,8 +20,8 @@ jobs:
       - name: Build
         run: npm run build --if-present
       - name: Updating webdriver
-        run: "npm run update:webdriver"
+        run: 'npm run update:webdriver'
       - name: Start webdriver
-        run: "npm run start:webdriver &"
+        run: 'npm run start:webdriver &'
       - name: Executing tests
         run: npm run test
