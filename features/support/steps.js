@@ -15,12 +15,12 @@ Given(/^Navigate to the sandbox$/, () => {
     ? browser
         .init({
           browserName: "chrome",
-          "goog:chromeOptions": { args: ["--headless", "--disable-gpu"] }
+          "goog:chromeOptions": { args: ["--headless", "--disable-gpu"] },
         })
         .get(url)
     : browser
         .init({
-          browserName: "chrome"
+          browserName: "chrome",
         })
         .get(url);
 });
@@ -29,10 +29,10 @@ AfterAll(() => {
   browser.quit();
 });
 
-When(/^I am on the sandbox page$/, done => {
+When(/^I am on the sandbox page$/, (done) => {
   browser
     .title()
-    .then(title => {
+    .then((title) => {
       title.should.equal("Sandbox");
     })
     .nodeify(done);
@@ -42,7 +42,7 @@ Then(/^The page header should be "([^"]*)"$/, (header, done) => {
   browser
     .elementByTagName("h1")
     .text()
-    .then(text => {
+    .then((text) => {
       text.should.equal(header);
     })
     .nodeify(done);
