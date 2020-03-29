@@ -1,5 +1,5 @@
 name: wd-commonjs-webdriver-manager-cucumber-chai-should
-"on":
+'on':
   push: null
   schedule:
     - cron: 50 5 1-31/2 * *
@@ -12,7 +12,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 12.x
-      - name: "npm:install"
+      - name: 'npm:install'
         run: npm install
         env:
           CI: true
@@ -20,9 +20,9 @@ jobs:
         run: npm run lint --if-present
       - name: build
         run: npm run build --if-present
-      - name: "update:webdriver"
-        run: "npm run update:webdriver"
-      - name: "start:webdriver"
-        run: "npm run start:webdriver &"
+      - name: 'update:webdriver'
+        run: 'npm run update:webdriver'
+      - name: 'start:webdriver'
+        run: 'npm run start:webdriver &'
       - name: test
         run: npm run test
