@@ -26,7 +26,7 @@
   "homepage": "https://github.com/e2e-boilerplate/wd-commonjs-webdriver-manager-cucumber-chai-should#readme",
   "husky": {
     "hooks": {
-      "pre-commit": "pretty-quick --staged"
+      "pre-commit": "lint-staged"
     }
   },
   "keywords": [
@@ -44,6 +44,11 @@
     "webdriver manager"
   ],
   "license": "MIT",
+  "lint-staged": {
+    "*.{js,json,md}": [
+      "prettier --write"
+    ]
+  },
   "name": "wd-commonjs-webdriver-manager-cucumber-chai-should",
   "repository": {
     "type": "git",
