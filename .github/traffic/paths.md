@@ -1,0 +1,12 @@
+| referrer                                                                                               | count | uniques |
+| :----------------------------------------------------------------------------------------------------- | :---- | :------ |
+| /e2e-boilerplate/wd-commonjs-webdriver-manager-cucumber-chai-should/actions                            | 13    | 1       |
+| /e2e-boilerplate/wd-commonjs-webdriver-manager-cucumber-chai-should/blob/master/.github/runs_status.md | 9     | 1       |
+| /e2e-boilerplate/wd-commonjs-webdriver-manager-cucumber-chai-should                                    | 7     | 1       |
+| /e2e-boilerplate/wd-commonjs-webdriver-manager-cucumber-chai-should/commits/master                     | 5     | 1       |
+| /e2e-boilerplate/wd-commonjs-webdriver-manager-cucumber-chai-should/tree/master/.github                | 4     | 1       |
+| /e2e-boilerplate/wd-commonjs-webdriver-manager-cucumber-chai-should/actions/runs/61098637              | 2     | 1       |
+| /e2e-boilerplate/wd-commonjs-webdriver-manager-cucumber-chai-should/actions/runs/64316434              | 2     | 1       |
+| /e2e-boilerplate/wd-commonjs-webdriver-manager-cucumber-chai-should/runs/538424997                     | 2     | 1       |
+| /e2e-boilerplate/wd-commonjs-webdriver-manager-cucumber-chai-should/actions/runs/57206135              | 1     | 1       |
+| /e2e-boilerplate/wd-commonjs-webdriver-manager-cucumber-chai-should/actions/runs/61196140              | 1     | 1       |
