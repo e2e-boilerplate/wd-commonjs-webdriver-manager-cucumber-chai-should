@@ -15,3 +15,6 @@ WD end-to-end test automation boilerplate, Using Commonjs, Webdriver-Manager, Cu
 4. npm run update:webdriver
     
 5. npm run test
+        
+    
+For more boilerplate click [here](https://github.com/e2e-boilerplate/utils/blob/master/docs/implemented.md)
