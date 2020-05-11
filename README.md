@@ -2,7 +2,7 @@
     
 # WD Boilerplate
     
-WD end-to-end test automation boilerplate, Using Commonjs, Webdriver-Manager, Cucumber, Chai and Should.
+WD end-to-end test automation boilerplate, Using [Commonjs](https://requirejs.org/docs/commonjs.html), [Webdriver-Manager](https://github.com/angular/webdriver-manager#readme), [Cucumber](https://github.com/cucumber/cucumber-js), [Chai](https://www.chaijs.com) and Should.
     
 ## Getting Started
     
