@@ -30,17 +30,18 @@
     }
   },
   "keywords": [
-    "boilerplate",
     "chai",
     "commonjs",
     "cucumber",
-    "e2e",
-    "e2e tests",
-    "example",
-    "integration test",
     "should",
     "wd",
-    "webdriver manager"
+    "webdriver manager",
+    "e2e",
+    "e2e tests",
+    "boilerplate",
+    "integration test",
+    "test automation",
+    "javascript"
   ],
   "license": "MIT",
   "lint-staged": {
